@@ -13,6 +13,65 @@
   }
 }
 
+.App {
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #6752ea;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(225, 209, 209, 0.1);
+}
+.categories button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(242, 196, 80) ;
+  color: white;
+  border-radius: 5px;
+}
+.category-button:hover {
+  background-color: red;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  font-size: 16px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #555;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
